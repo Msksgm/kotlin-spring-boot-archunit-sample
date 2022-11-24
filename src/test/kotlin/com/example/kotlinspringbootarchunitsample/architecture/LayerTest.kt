@@ -10,7 +10,7 @@ import com.tngtech.archunit.lang.syntax.ArchRuleDefinition.noClasses
  *
  */
 @AnalyzeClasses(
-    packages = ["com/example/kotlinspringbootarchunitsample"],
+    packages = ["com.example.kotlinspringbootarchunitsample"],
     importOptions = [
         ImportOption.DoNotIncludeTests::class, ImportOption.DoNotIncludeJars::class
     ],
